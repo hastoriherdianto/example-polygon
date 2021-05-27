@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Peta tanpa judul</name>
+    <description/>
+    <Style id="line-E65100-6619-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6.619</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-6619-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>9.9285</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-6619-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-6619-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-6619-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Lapisan tanpa judul</name>
+    </Folder>
+    <Folder>
+      <name>polygon majalaya</name>
+      <Placemark>
+        <name>majalaya</name>
+        <styleUrl>#line-E65100-6619-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            107.726526,-7.080889,791.59
+            107.725399,-7.083366,797.38
+            107.72483,-7.0828,794.37
+            107.724523,-7.08202,791.88
+            107.724092,-7.081177,789.97
+            107.723179,-7.080537,783.53
+            107.722402,-7.080239,777.77
+            107.722876,-7.077119,769.99
+            107.724637,-7.073784,757.1
+            107.723079,-7.072507,766.59
+            107.721786,-7.070629,762.86
+            107.720828,-7.069448,763.63
+            107.721154,-7.068725,762.09
+            107.719088,-7.066449,763.98
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
